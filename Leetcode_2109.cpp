@@ -9,7 +9,7 @@ public:
     string addSpaces(string s, vector<int>& spaces) {
         stringstream result;
         // this is present in <sstring> header file
-        // this function works on strings and allows us to treat strings like input or output streams. string stream dynamically grows its interanl buffer as per the need. It also allows us to use the stream as an output
+        // this function works on strings and allows us to treat strings like input or output streams. string            stream dynamically grows its interanl buffer as per the need. It also allows us to use the stream as an output
 
         int index=0;
 
