@@ -4,16 +4,6 @@
 //
 //***************************************************************//
 
-Time complexity: o(n+w*m)
-where n is the first iteration over n elemtns in the sentence
-w is the no of words in sentence/wordList
-and m is the avg length of each word in the wordList
-
-Space complexity: 0(n)
-since we are storing the words in a vector and we are no returning it as an array
-
-//***************************************************************//
-
 class Solution {
 public:
     int isPrefixOfWord(string sentence, string searchWord) {
@@ -71,6 +61,16 @@ public:
 };
 
 //***************************************************************//
+Time complexity: o(n+w*m)
+where n is the first iteration over n elemtns in the sentence
+w is the no of words in sentence/wordList
+and m is the avg length of each word in the wordList
+
+Space complexity: 0(n)
+since we are storing the words in a vector and we are no returning it as an array
+
+
+//***************************************************************//
 //
 // Better Approach
 //
@@ -112,10 +112,10 @@ public:
 
 //***************************************************************//
 
-time complexity= 0(n*m)
+Time complexity= 0(n*m)
 where n is for traversing the length of the array. m is the length of the word and w is no of words. In worst case it will traverse the length of the word 0(m) to check if its equal
 
-space complexity=0(1)
+Space complexity=0(1)
 
 
 //***************************************************************//
@@ -153,7 +153,8 @@ public:
 
 //***************************************************************//
 
-time complexity - 0(n+k*m)
+Time complexity - 0(n+k*m)
 tc of isstringstream is 0(n) as the whole string is traversed.
 for each word in the sentence, in the worst case the whole word can be traversed so it wil be 0(m) where m is len of word and if there are k word then k*m 
-space complexity - 0(1)
+
+Space complexity - 0(1)
