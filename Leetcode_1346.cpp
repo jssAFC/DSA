@@ -5,12 +5,6 @@
 //
 //***************************************************************//
 
-time complexity- 0(n^2)
-
-space complexity- 0(1)
-
-//***************************************************************//
-
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
@@ -29,16 +23,18 @@ public:
 };
 
 //***************************************************************//
+
+time complexity- 0(n^2)
+    
+space complexity- 0(1)
+
+//***************************************************************//
 //
 // Better Approach
 //
 //***************************************************************//
 
-time complexity-  0(n)   // We iterate through the array once and check if they are present in the array or not.
 
-space complexity- 0(n)  // space taken by set
-
-//***************************************************************//
 
 class Solution {
 public:
@@ -62,3 +58,10 @@ public:
     }
     // no valid pair found
 };
+
+//***************************************************************//
+
+time complexity-  0(n)   // We iterate through the array once and check if they are present in the array or not.
+
+space complexity- 0(n)  // space taken by set
+
