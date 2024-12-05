@@ -72,7 +72,7 @@ since we are storing the words in a vector and we are no returning it as an arra
 
 //***************************************************************//
 //
-// Better Approach
+// Optimized Approach
 //
 //***************************************************************//
 
@@ -112,15 +112,15 @@ public:
 
 //***************************************************************//
 
-Time complexity= 0(n*m)
-where n is for traversing the length of the array. m is the length of the word and w is no of words. In worst case it will traverse the length of the word 0(m) to check if its equal
+Time complexity= 0(n*m) or 0(n)
+where n is for traversing the length of the array. The inner loop run for m time as we are comparing till the lenth of the search word is complete. And if its length is m then the loop runs m times for each word
 
 Space complexity=0(1)
 
 
 //***************************************************************//
 //
-// Optimal approach
+// Optimized approach
 //
 //***************************************************************//
 
@@ -153,8 +153,8 @@ public:
 
 //***************************************************************//
 
-Time complexity - 0(n+k*m)
+Time complexity - 0(n+k*m) or O(n)
 tc of isstringstream is 0(n) as the whole string is traversed.
-for each word in the sentence, in the worst case the whole word can be traversed so it wil be 0(m) where m is len of word and if there are k word then k*m 
+for each word in the sentence, in the worst case the whole word can be traversed so it wil be 0(m) where m is len of search word and if there are k word then k*m 
 
 Space complexity - 0(1)
